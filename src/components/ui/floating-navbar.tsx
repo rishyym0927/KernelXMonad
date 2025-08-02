@@ -118,19 +118,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({ navItems, className })
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.3, delay: 0.1 }}
           >
-            <motion.div
-              whileHover={{ rotate: 10, scale: 1.1 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            >
-              <Image
-                src="/logo.png"
-                alt="Sonic Logo"
-                width={32}
-                height={32}
-                priority
-                className="rounded-full"
-              />
-            </motion.div>
+          
             <motion.span 
               className="text-lg font-semibold text-white"
               initial={{ opacity: 0 }}
