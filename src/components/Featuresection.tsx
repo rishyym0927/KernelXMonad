@@ -8,7 +8,7 @@ export function FeaturesSectionDemo() {
     {
       title: "Smart Contract Development",
       description:
-        "Build and deploy secure smart contracts on Monad AssetHub with our advanced IDE and debugging tools.",
+        "Build and deploy secure smart contracts on Monad's ultra-fast blockchain with our advanced IDE, real-time debugging, and performance optimization tools.",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-4 border-b lg:border-r border-neutral-800",
@@ -31,7 +31,7 @@ export function FeaturesSectionDemo() {
     {
       title: "Deploy to Monad Network",
       description:
-        "Deploy your smart contracts to mainnet, testnet, or local networks with one-click deployment infrastructure.",
+        "Deploy your smart contracts to Monad's high-performance EVM-compatible blockchain with one-click deployment to mainnet, testnet, or local networks.",
       skeleton: <SkeletonFour />,
       className: "col-span-1 lg:col-span-3 border-b lg:border-none",
     },
@@ -195,7 +195,7 @@ export const SkeletonThree = () => {
             Monad Development Masterclass
           </h4>
           <p className="text-neutral-400 text-xs">
-            Learn substrate development from experts
+            Learn Monad smart contract development from experts
           </p>
         </div>
       </div>
@@ -217,7 +217,7 @@ export const SkeletonFour = () => {
           Global Monad Network
         </h4>
         <p className="text-neutral-400 text-sm">
-          Deploy to parachains worldwide
+          Deploy to Monad networks worldwide
         </p>
       </div>
       
