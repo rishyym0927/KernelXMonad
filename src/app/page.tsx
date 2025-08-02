@@ -55,7 +55,7 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
           >
-            Welcome to <Cover>Kerenel</Cover>
+            Welcome to <Cover>Kernel</Cover>
           </motion.h1>
           <motion.p
             className="mx-auto mt-8 max-w-2xl text-center text-xl font-light text-neutral-400 leading-relaxed"
@@ -63,8 +63,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 1 }}
           >
-            Build, deploy, and collaborate on decentralized projects with ease. The future of blockchain development is
-            here.
+            Build, deploy, and scale smart contracts on Monad's high-performance blockchain. Experience lightning-fast transactions and EVM compatibility with next-generation development tools.
           </motion.p>
 
           <motion.div

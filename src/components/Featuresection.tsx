@@ -16,7 +16,7 @@ export function FeaturesSectionDemo() {
     {
       title: "AI-Powered Code Generation",
       description:
-        "Generate blockchain code effortlessly with our intelligent AI that understands Substrate and ink! patterns.",
+        "Generate blockchain code effortlessly with our intelligent AI that understands Solidity patterns and Monad's EVM architecture.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 border-neutral-800",
     },
